@@ -1,8 +1,33 @@
-/*
+/* https://docs.obsidian.md/Reference/CSS+variables/CSS+variables */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+/* Contacts Table Styles */
+.contacts-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
 
-If your plugin does not need CSS, delete this file.
+.contacts-view th {
+    background-color: var(--background-secondary);
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--background-modifier-border);
+}
 
-*/
+.contacts-view thead tr {
+    background-color: var(--background-secondary);
+}
+
+.contacts-view td {
+    padding: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.contacts-view tr:hover {
+    background-color: var(--background-primary-alt);
+}
+
+.contacts-view tbody tr:last-child td {
+    border-bottom: none;
+}

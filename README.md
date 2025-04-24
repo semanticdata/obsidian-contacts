@@ -1,6 +1,6 @@
-# Obsidian Sample Plugin
+# Friend Keeper
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+A plugin to help you keep track of your friends.
 
 This project uses TypeScript to provide type checking and documentation.
 The repo depends on the latest plugin API (obsidian.d.ts) in TypeScript Definition format, which contains TSDoc comments describing what it does.
